@@ -2,30 +2,42 @@
 
 W2-PM1 – Footprinting & Reconnaissance
 
-
 This folder contains my practical work for Week 2, PM1.
 
-Tools Used
+Tools Used:
 WHOIS
 WhatWeb
 Nslookup
 cURL
 WAFW00F
 DNSRecon
-Evidence
+
+Evidence:
 Screenshots and saved command outputs for each practical task.
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+W2-PM4-Footprinting with harvester
+
+this folder containing my Week 2 project for PM4
+
+Activities:
+ Collecting publicly available information about a target domain using multiple OSINT sources.
+
+Evidence:
+Screenshots and saved command outputs for each practical task.
+ 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 W2-PM5 – Network Scanning with Zenmap
 
 This folder contains my Week 2 practical work for PM5.
 
-Activities
+Activities:
 Local network configuration using ipconfig.
 Network discovery using Zenmap.
 Identifying live hosts.
 Reviewing IP and MAC address information.
 Network topology analysis.
-Evidence
+
+Evidence:
 Screenshots and network topology documentation.
