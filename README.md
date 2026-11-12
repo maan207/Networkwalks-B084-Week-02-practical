@@ -1,43 +1,30 @@
 # Networkwalks-B084-Week-02-practical
+# Module 2: Footprinting & Reconnaissance with GHDB
 
-W2-PM1 – Footprinting & Reconnaissance
+## Overview
+This module focuses on passive reconnaissance using the Google Hacking Database (GHDB) hosted on Exploit-DB. By using specialized search operators (Google Dorks), sensitive information and publicly exposed assets are identified without directly interacting with target systems.
 
-This folder contains my practical work for Week 2, PM1.
+---
 
-Tools Used:
-WHOIS
-WhatWeb
-Nslookup
-cURL
-WAFW00F
-DNSRecon
+## Tasks Completed
 
-Evidence:
-Screenshots and saved command outputs for each practical task.
+### Task 1: Exposed Security Cameras
+Found live, publicly accessible security camera feeds using GHDB dorks.
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
-W2-PM4-Footprinting with harvester
+| No. | Link | Relevant Dork | Username / Password |
+|---|---|---|---|
+| 1 | http://122.116.41.8:8080/ | `intitle:"webcamXP" inurl:8080` | N/A |
 
-this folder containing my Week 2 project for PM4
+---
 
-Activities:
- Collecting publicly available information about a target domain using multiple OSINT sources.
+### Task 2: Mathematics eBooks (PDF)
+Found downloadable mathematics textbooks in PDF format using index listing dorks.
 
-Evidence:
-Screenshots and saved command outputs for each practical task.
- 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| No. | Link | Relevant Dork | Username / Password |
+|---|---|---|---|
+| 1 | https://www.skylineuniversity.ac.ae/pdf/math/ | `intitle:index.of "parent directory" mathematics pdf` | N/A |
 
-W2-PM5 – Network Scanning with Zenmap
+---
 
-This folder contains my Week 2 practical work for PM5.
-
-Activities:
-Local network configuration using ipconfig.
-Network discovery using Zenmap.
-Identifying live hosts.
-Reviewing IP and MAC address information.
-Network topology analysis.
-
-Evidence:
-Screenshots and network topology documentation.
+## Key Takeaways
+Google Dorks demonstrate how search engine crawlers index misconfigured web servers. Security teams use these same queries to conduct self-audits and remediate unintended exposure.
